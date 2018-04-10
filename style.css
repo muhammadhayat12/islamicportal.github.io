@@ -1,0 +1,475 @@
+@media screen and (max-width:700px) {
+	#logo{
+		display: none;
+	}
+     
+	#li1{border-radius:5px;  background-color: skyblue; margin-bottom:5px; color:white;}
+	#li2{border-radius:5px;  background-color: skyblue; margin-bottom:5px; color:white;}
+	#li3{border-radius:5px;  background-color: skyblue; margin-bottom:5px; color:white;}
+	#gallery{ margin-left:30px;}
+    .col-sm-4 img{padding-left:40px;}
+	#outer{
+			background-color: white;
+			width:300px;
+			padding:10px;
+			margin:auto;
+			margin-top: 20px;}
+	.bm{
+			visibility:hidden;
+			position:fixed;
+			top:0;
+			left:0;
+			opacity:0;
+			background-color: rgba(192,191,180,1);
+			width:100%;
+			height:100%;
+
+		}
+		.bm:target{
+			visibility: visible;
+			opacity:1;
+			width:200px;
+			transition:opacity 2s;
+			background-color:transparent;
+		}
+		
+
+	
+	   #height{
+		   
+		   height:500px;
+		   
+	   }
+	
+	
+	
+			
+}
+
+#logo {
+	transition: all 1s;
+}
+
+#logo:hover {
+	transform: rotate(18deg) scale(1.2);
+}
+
+
+#bar{
+	border:solid hotpink;
+	width:80px;
+	border-top-left-radius:5px;
+
+}
+
+
+
+
+
+@media screen and (min-width: 700px){
+	#logo2{
+		display: none;
+	}
+
+	#li1{
+
+	}
+	#li1:hover{
+		border-radius:5px;
+		background-color: skyblue;
+
+	}
+	#li2{
+
+	}
+	#li2:hover{
+		border-radius:5px;
+		background-color: skyblue;
+
+	}
+	#li3{
+
+	}
+	#li3:hover{
+		border-radius:5px;
+		background-color: skyblue;
+
+	}
+	
+	#outer{
+			background-color: white;
+			width:400px;
+			margin: auto;
+			padding:10px;
+			margin-top: 20px;}
+			
+	.bm{
+			visibility:hidden;
+			position: fixed;
+			top:0;
+			left:0;
+			opacity:0;
+			background-color: rgba(192,191,180,1);
+			width:100%;
+			height:100%;
+
+		}
+		.bm:target{
+			visibility: visible;
+			opacity:1;
+			transition:opacity 2s;
+			background-color:transparent;
+		}
+		#height{
+		   
+		   height:auto;
+		   
+	   }
+	
+}
+
+#logo2{
+	transition:all 2s;
+}
+#logo2:hover{
+	transform:scale(1.4);
+}
+
+
+
+
+/*Welcome Animation*/
+#submit1{
+	color:black;
+	animation-name:button2;
+	animation-delay:0.2s;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+
+	}
+	
+
+@keyframes button2{
+	
+	20%{color:#00FF00;}
+}
+#submit2{
+	color:black;
+	animation-name:button2;
+	animation-delay:0.10s;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+
+	}
+	
+
+@keyframes button2{
+	
+	20%{ color:#00FF00;}
+}
+#submit3{
+	color:black;
+	animation-name:button2;
+	animation-delay:0.15s;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+
+	}
+	
+
+@keyframes button2{
+	20%{ color:#00FF00;}
+}
+#submit4{
+	color:black;
+	animation-name:button2;
+	animation-delay:0.20s;
+	animation-duration:4s;
+     animation-iteration-count:infinite;
+	}
+	
+
+@keyframes button2{
+	20%{ color:#00FF00;}
+}
+#submit5{
+	color:black;
+	animation-name:button2;
+	animation-delay:0.25s;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+
+	}
+	
+
+@keyframes button2{
+	20%{ color:#00FF00;}
+	
+}
+#submit6{
+	color:black;
+	animation-name:button2;
+	animation-delay:0.30s;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+
+	}
+	
+
+@keyframes button2{
+	20%{ color:#00FF00;}
+	
+}
+#submit7{
+	color:black;
+	animation-name:button2;
+	animation-delay:0.35s;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+
+	}
+	
+
+@keyframes button2{
+	20%{ color:#00FF00;}
+	
+}
+#submit8{
+	color:black;
+	animation-name:button2;
+	animation-delay:0.40s;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+
+	}
+	
+
+@keyframes button2{
+	20%{ color:#00FF00;}
+	
+}
+#submit9{
+	color:black;
+	animation-name:button2;
+	animation-delay:0.45s;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+
+	}
+	
+
+@keyframes button2{
+	20%{ color:#00FF00;}
+	
+}
+#submit10{
+	color:black;
+	animation-name:button2;
+	animation-delay:0.50s;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+
+	}
+	
+
+@keyframes button2{
+	20%{ color:#00FF00;}
+	
+}
+#submit11{
+	color:black;
+	animation-name:button2;
+	animation-delay:0.55s;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+
+	}
+	
+
+@keyframes button2{
+	20%{ color:#00FF00;}
+	
+}
+#submit12{
+	color:black;
+	animation-name:button2;
+	animation-delay:0.60s;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+
+	}
+	
+
+@keyframes button2{
+	20%{ color:#00FF00;}
+	
+}
+#submit13{
+	color:black;
+	animation-name:button2;
+	animation-delay:0.65s;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+
+	}
+	
+
+@keyframes button2{
+	20%{ color:#00FF00;}
+	
+}
+#submit14{
+	color:black;
+	animation-name:button2;
+	animation-delay:0.70s;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+
+	}
+	
+
+@keyframes button2{
+	20%{ color:#00FF00;}
+	
+}
+#submit15{
+	color:black;
+	animation-name:button2;
+	animation-delay:0.75s;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+
+	}
+	
+
+@keyframes button2{
+	20%{ color:#00FF00;}
+	
+}
+#submit16{
+	color:black;
+	animation-name:button2;
+	animation-delay:0.80s;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+
+	}
+	
+
+@keyframes button2{
+	20%{ color:#00FF00;}
+	
+}
+#submit17{
+	color:black;
+	animation-name:button2;
+	animation-delay:0.85s;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+
+	}
+	
+
+@keyframes button2{
+	20%{ color:#00FF00;}
+	
+}
+#submit18{
+	color:black;
+	animation-name:button2;
+	animation-delay:0.90s;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+
+	}
+	
+
+@keyframes button2{
+	20%{ color:#00FF00;}
+	
+}#submit19{
+	color:black;
+	animation-name:button2;
+	animation-delay:0.95s;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+
+	}
+	
+
+@keyframes button2{
+	20%{ color:#00FF00;}
+	
+}
+#submit20{
+	color:black;
+	animation-name:button2;
+	animation-delay:1s;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+
+	}
+	
+
+@keyframes button2{
+	20%{ color:#00FF00;}
+	
+}
+#submit21{
+	color:black;
+	animation-name:button2;
+	animation-delay:1.05s;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+
+	}
+	
+
+@keyframes button2{
+	20%{ color:#00FF00;}
+	
+}
+#submit22{
+	color:black;
+	animation-name:button2;
+	animation-delay:1.10s;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+
+	}
+	
+
+@keyframes button2{
+	20%{ color:#00FF00;}
+	
+}
+#submit23{
+	color:black;
+	animation-name:button2;
+	animation-delay:1.15s;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+
+	}
+	
+
+@keyframes button2{
+	20%{ color:#00FF00;}
+	
+}
+#submit24{
+	color:black;
+	animation-name:button2;
+	animation-delay:1.20s;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+
+	}
+	
+
+@keyframes button2{
+	20%{ color:#00FF00;}
+	
+}
+
+/*Animation End*/

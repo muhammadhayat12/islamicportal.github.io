@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name="description" content="Islamic Portal website you learn, Quran Pak, Daily Dua, And Read Books of Hadith And Other things">
+	<meta name="keywords" content="Quran Pak,Daily Dua,Hadith,Dua After Namaz,Islamic Books,Islamic Portal,Dua Qunoot,Dua,islamic web">
+	<meta name="author" content="Muhammad Hayat Mangan">
+    <title>Hadith</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!--style-->
+    <style>
+
+		.bm{
+			visibility:hidden;
+			position: fixed;
+			top:0;
+			left:0;
+			opacity:0;
+			background-color: rgba(192,191,180,1);
+			width:100%;
+			height:100%;
+
+		}
+		.bm:target{
+			visibility: visible;
+			opacity:1;
+			transition:opacity 2s;
+			background-color:transparent;
+		}
+
+		
+		#inner{
+			
+			padding:10px;
+		}
+		#cross{
+			float: right;
+			border: black;
+			border-radius:10%;
+			background-color: red;
+			width:20px;
+			padding: 5px;
+			color: white;
+		}
+
+
+
+    </style>
+</head>
+<body  style="background-color:lightblue;">
+<div class="container-fluid">
+<div class="jumbotron">
+
+
+<!-- Nevbar start -->
+
+    <div class="navbar" style="background-color:#dfe1ff;">
+      <div class="container-fluid">
+        <div class="navbar-header">
+            <span class="navbar-brand">
+                <img src="Logo.png" id="logo" width="120" class="img-responsive" style="margin-top:-50px;">
+                <img src="Logo1.png" id="logo2"  width="130" class="img-responsive" style="margin-top:-45px; margin-left:-15px;">
+
+                 </span>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#HAYAT" >
+                <span class="fa fa-list-ul" style="font-size:23px;"></span>
+            </button>
+
+        </div>
+          <div class="collapse navbar-collapse" id="HAYAT" style="border:2px;">
+                      <ul class="nav navbar-nav" id="li">
+
+						  <li><a href="home.html" id="li1">Home</a></li>
+						  <li><a href="Books.html" id="li2">Books</a></li>
+						  <li><a href="Hadith.html" id="li3">Hadith</a></li>
+
+                      </ul>
+          </div>
+
+               </div>
+           </div>
+ <!-- Navbar End -->
+
+     <div class="well-sm bg-info" style="margin-top:40px;">
+
+<marquee behavior="scroll" direction="right">
+<p style="font-size:36px;">
+اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ
+كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ
+.إِنَّكَ حَمِيدٌ مَجِيدٌ
+اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ، وَعَلَى آلِ مُحَمَّدٍ
+كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ
+.إِنَّكَ حَمِيدٌ مَجِيدٌ
+</p>
+</marquee>
+</div>
+
+
+    <br>
+
+<!-- Menu Start  -->
+
+<!--Menu End-->
+
+  <div class="panel panel-default">
+	  <div class="panel-heading"></div>
+	  <div class="panel-body">
+
+		  <div class="row">
+
+			  <div class="col-sm-3">
+				  <h3 style="color:rgb(226,65,114); border-bottom-style:solid; border-color:rgb(226,65,114); width:70%; font-family:Berlin Sans FB;">Menu</h3>
+
+				  <div class="panel panel-info" style="border-top-left-radius:0px;">
+					  <div class="panel-body">
+						  <a href="Hadith.html"><h4><i class="fa fa-angle-double-right"></i>Hadiths</h4></a>
+						   <p style="border-bottom:dashed 1px;"></p>
+                        <a href="Daily-essential-dua.html"><h4><i class="fa fa-angle-double-right"></i>Daily Essential Dua</h4></a>
+                        <p style="border-bottom:dashed 1px;"></p>
+
+                        <a href="Dua-After-Namaz.Html"><h4><i class="fa fa-angle-double-right"></i>Dua After Namaz</h4></a>
+                        <p style="border-bottom:dashed 1px;"></p>
+						<a href="Dua-e-Qunoot.html"><h4><i class="fa fa-angle-double-right"></i>Dua e Qunoot</h4></a>
+                        <p style="border-bottom:dashed 1px;"></p>
+                        <a href="Books.html"><h4><i class="fa fa-angle-double-right"></i>Books</h4></a>
+                        <p style="border-bottom:dashed 1px;"></p>
+					  </div>
+				  </div>
+			  </div>
+
+
+			<div class="col-sm-9">
+					<div class="tabbable" id="tabs-986737" style="border:1px solid rgb(192,191,180);">
+				<ul class="nav nav-tabs"  style="background-color:rgb(192,191,180);" >
+					<li class="active">
+						<a href="#p1" data-toggle="tab">Page 1</a>
+					</li>
+					<li>
+						<a href="#p2" data-toggle="tab">2</a>
+					</li>
+					<li>
+						<a href="#p3" data-toggle="tab">3</a>
+					</li>
+					<li>
+						<a href="#p4" data-toggle="tab">4</a>
+					</li>
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane active" id="p1">
+
+
+				<div class="row">
+					<div class="col-sm-4"  style="margin-top:5px;"><a href="#click"><img src="Hadith/Hadith%20(1).jpg" width="240" class="img-responsive"/></a></div>
+
+					<div class="col-sm-4"  style="margin-top:5px;"><a href="#click1"><img src="Hadith/Hadith%20(2).jpg" width="240" class="img-responsive"/></a></div>
+
+					<div class="col-sm-4"  style="margin-top:5px;"><a href="#click2"><img src="Hadith/Hadith%20(3).jpg" width="240" class="img-responsive"/></a></div>
+
+                 </div>
+
+                        <div class="row">
+							<div class="col-sm-4"  style="margin-top:5px;"><a href="#click3"><img src="Hadith/Hadith%20(4).jpg" width="240" class="img-responsive"/></a></div>
+
+							<div class="col-sm-4"  style="margin-top:5px;"><a href="#click4"><img src="Hadith/Hadith%20(5).jpg" width="240" class="img-responsive"/></a></div>
+
+							<div class="col-sm-4"  style="margin-top:5px;"><a href="#click5"><img src="Hadith/Hadith%20(6).jpg" width="240" class="img-responsive"/></a></div>
+
+                        </div>
+                        <div class="row">
+							<div class="col-sm-4"  style="margin-top:5px;"><a href="#click6"><img src="Hadith/Hadith%20(7).jpg" width="240" class="img-responsive"/></a></div>
+
+							<div class="col-sm-4"  style="margin-top:5px;"><a href="#click7"><img src="Hadith/Hadith%20(8).jpg" width="240" class="img-responsive"/></a></div>
+
+							<div class="col-sm-4" class="bm" style="margin-top:5px;"><a href="#click8"><img src="Hadith/Hadith%20(9).jpg" width="240" class="img-responsive"/></a></div>
+
+                        </div>
+                        <div class="row">
+							<div class="col-sm-4" class="bm" style="margin-top:5px;"><a href="#click9"><img src="Hadith/Hadith%20(10).jpg" width="240" class="img-responsive"/></a></div>
+
+							<div class="col-sm-4" class="bm" style="margin-top:5px;"><a href="#click10"><img src="Hadith/Hadith%20(11).jpg" width="240" class="img-responsive"/></a></div>
+
+							<div class="col-sm-4" class="bm" style="margin-top:5px;"><a href="#click11"><img src="Hadith/Hadith%20(12).jpg" width="240" class="img-responsive"/></a></div>
+
+                        </div>
+
+					</div>
+
+	<!--page1 lightbox-->
+					<div class="bm" id="click" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(1).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(1).jpg" download="Hadith/Hadith%20(1).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="bm" id="click1" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(2).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(2).jpg" download="Hadith/Hadith%20(2).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="bm" id="click2" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(3).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(3).jpg" download="Hadith/Hadith%20(3).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="bm" id="click3" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(4).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(4).jpg" download="Hadith/Hadith%20(4).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="bm" id="click4" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(5).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(5).jpg" download="Hadith/Hadith%20(5).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="bm" id="click5" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(6).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(6).jpg" download="Hadith/Hadith%20(6).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="bm" id="click6" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(7).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(7).jpg" download="Hadith/Hadith%20(7).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="bm" id="click7" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(8).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(8).jpg" download="Hadith/Hadith%20(8).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="bm" id="click8" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(9).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(9).jpg" download="Hadith/Hadith%20(9).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="bm" id="click9" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(10).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(10).jpg" download="Hadith/Hadith%20(10).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="bm" id="click10" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(11).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(11).jpg" download="Hadith/Hadith%20(11).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+                     
+					<div class="bm" id="click11" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(12).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(12).jpg" download="Hadith/Hadith%20(12).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<!--End of page1 Lightbox-->
+
+		
+		<!--Page2-->			
+				<div class="tab-pane" id="p2">
+					<div class="row">
+					  <div class="col-sm-4" style="margin-top:5px;"><a href="#click12"><img src="Hadith/Hadith%20(13).jpg" width="240" class="img-responsive"/></a></div>
+					  <div class="col-sm-4" style="margin-top:5px;"><a href="#click13"><img src="Hadith/Hadith%20(14).jpg" width="240" class="img-responsive"/></a></div>
+					  <div class="col-sm-4" style="margin-top:5px;"><a href="#click14"><img src="Hadith/Hadith%20(15).jpg" width="240" class="img-responsive"/></a></div>
+					
+					</div>
+				<div class="row">
+					  <div class="col-sm-4" style="margin-top:5px;"><a href="#click15"><img src="Hadith/Hadith%20(16).jpg" width="240" class="img-responsive"/></a></div>
+					  <div class="col-sm-4" style="margin-top:5px;"><a href="#click16"><img src="Hadith/Hadith%20(17).jpg" width="240" class="img-responsive"/></a></div>
+					  <div class="col-sm-4" style="margin-top:5px;"><a href="#click17"><img src="Hadith/Hadith%20(18).jpg" width="240" class="img-responsive"/></a></div>
+					  
+					</div>	
+				<div class="row">
+					  <div class="col-sm-4" style="margin-top:5px;"><a href="#click18"><img src="Hadith/Hadith%20(19).jpg" width="240" class="img-responsive"/></a></div>
+					  <div class="col-sm-4" style="margin-top:5px;"><a href="#click19"><img src="Hadith/Hadith%20(20).jpg" width="240" class="img-responsive"/></a></div>
+					  <div class="col-sm-4" style="margin-top:5px;"><a href="#click20"><img src="Hadith/Hadith%20(21).jpg" width="240" class="img-responsive"/></a></div>
+					
+					</div>	
+				<div class="row">
+					 <div class="col-sm-4" style="margin-top:5px;"><a href="#click21"><img src="Hadith/Hadith%20(22).jpg" width="240" class="img-responsive"/></a></div>
+					 <div class="col-sm-4" style="margin-top:5px;"><a href="#click22"><img src="Hadith/Hadith%20(23).jpg" width="240" class="img-responsive"/></a></div>
+					 <div class="col-sm-4" style="margin-top:5px;"><a href="#click23"><img src="Hadith/Hadith%20(24).jpg" width="240" class="img-responsive"/></a></div>
+					
+					</div>	
+					</div>
+					
+		<!--End page2-->
+
+<!--Page2 lightbox-->		
+
+          <div class="bm" id="click12" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(13).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(13).jpg" download="Hadith/Hadith%20(13).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="bm" id="click13" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(14).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(14).jpg" download="Hadith/Hadith%20(14).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				<div class="bm" id="click14" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(15).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(15).jpg" download="Hadith/Hadith%20(15).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+                  <div class="bm" id="click15" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(16).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(16).jpg" download="Hadith/Hadith%20(16).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+                  <div class="bm" id="click16" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(17).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(17).jpg" download="Hadith/Hadith%20(17).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+                    <div class="bm" id="click17" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(18).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(18).jpg" download="Hadith/Hadith%20(18).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+                     <div class="bm" id="click18" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(19).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(19).jpg" download="Hadith/Hadith%20(19).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+                   <div class="bm" id="click19" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(20).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(20).jpg" download="Hadith/Hadith%20(20).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div>					
+                     <div class="bm" id="click20" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(21).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(21).jpg" download="Hadith/Hadith%20(21).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+					   <div class="bm" id="click21" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(22).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(22).jpg" download="Hadith/Hadith%20(22).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+                     <div class="bm" id="click22" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(23).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(23).jpg" download="Hadith/Hadith%20(23).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+                        <div class="bm" id="click23" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(24).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(24).jpg" download="Hadith/Hadith%20(24).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div>   
+    					
+	<!--end of page2 lightbox -->		  
+
+			  
+					<!--page3-->
+			    <div class="tab-pane" id="p3">
+                    <div class="row">
+					   <div class="col-sm-4" style="margin-top:5px;"><a href="#click24"><img src="Hadith/Hadith%20(25).jpg" width="240" class="img-responsive"/></a></div>
+					   <div class="col-sm-4" style="margin-top:5px;"><a href="#click25"><img src="Hadith/Hadith%20(26).jpg" width="240" class="img-responsive"/></a></div>
+					   <div class="col-sm-4" style="margin-top:5px;"><a href="#click26"><img src="Hadith/Hadith%20(27).jpg" width="240" class="img-responsive"/></a></div>
+				    </div>
+
+                 <div class="row">
+					   <div class="col-sm-4" style="margin-top:5px;"><a href="#click27"><img src="Hadith/Hadith%20(28).jpg" width="240" class="img-responsive"/></a></div>
+					   <div class="col-sm-4" style="margin-top:5px;"><a href="#click28"><img src="Hadith/Hadith%20(29).jpg" width="240" class="img-responsive"/></a></div>
+					   <div class="col-sm-4" style="margin-top:5px;"><a href="#click29"><img src="Hadith/Hadith%20(30).jpg" width="240" class="img-responsive"/></a></div>
+				    </div>
+					
+				 <div class="row">
+					   <div class="col-sm-4" style="margin-top:5px;"><a href="#click30"><img src="Hadith/Hadith%20(31).jpg" width="240" class="img-responsive"/></a></div>
+					   <div class="col-sm-4" style="margin-top:5px;"><a href="#click31"><img src="Hadith/Hadith%20(32).jpg" width="240" class="img-responsive"/></a></div>
+					   <div class="col-sm-4" style="margin-top:5px;"><a href="#click32"><img src="Hadith/Hadith%20(33).jpg" width="240" class="img-responsive"/></a></div>
+				    </div>
+
+                 <div class="row">
+					   <div class="col-sm-4" style="margin-top:5px;"><a href="#click33"><img src="Hadith/Hadith%20(34).jpg" width="240" class="img-responsive"/></a></div>
+					   <div class="col-sm-4" style="margin-top:5px;"><a href="#click34"><img src="Hadith/Hadith%20(35).jpg" width="240" class="img-responsive"/></a></div>
+					   <div class="col-sm-4" style="margin-top:5px;"><a href="#click35"><img src="Hadith/Hadith%20(36).jpg" width="240" class="img-responsive"/></a></div>
+				    </div>
+					
+				</div>
+			<!--End page3-->
+			
+	<!--Page3 LightBOX START-->
+
+             <div class="bm" id="click24" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(25).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(25).jpg" download="Hadith/Hadith%20(25).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+ 	                 <div class="bm" id="click25" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(26).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(26).jpg" download="Hadith/Hadith%20(26).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+				      <div class="bm" id="click26" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(27).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(27).jpg" download="Hadith/Hadith%20(27).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+                         <div class="bm" id="click27" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(28).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(28).jpg" download="Hadith/Hadith%20(28).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+				      <div class="bm" id="click28" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(29).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(29).jpg" download="Hadith/Hadith%20(29).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+                  
+                        <div class="bm" id="click29" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(30).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(30).jpg" download="Hadith/Hadith%20(30).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+                         <div class="bm" id="click30" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(31).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(31).jpg" download="Hadith/Hadith%20(31).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+                         <div class="bm" id="click31" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(32).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(32).jpg" download="Hadith/Hadith%20(32).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+                       <div class="bm" id="click32" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(33).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(33).jpg" download="Hadith/Hadith%20(33).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+                       <div class="bm" id="click33" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(34).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(34).jpg" download="Hadith/Hadith%20(34).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+                        <div class="bm" id="click34" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(35).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(35).jpg" download="Hadith/Hadith%20(35).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+                        <div class="bm" id="click35" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(36).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(36).jpg" download="Hadith/Hadith%20(36).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+         
+<!--end of page3 lightbox-->		 
+			
+
+			<!--page4-->
+			<div class="tab-pane" id="p4">
+					<div class="row">
+					   <div class="col-sm-4" style="margin-top:5px;"><a href="#click36"><img src="Hadith/Hadith%20(37).jpg" width="240" class="img-responsive"/></a></div>
+					   <div class="col-sm-4" style="margin-top:5px;"><a href="#click37"><img src="Hadith/Hadith%20(38).jpg" width="240" class="img-responsive"/></a></div>
+					   <div class="col-sm-4" style="margin-top:5px;"><a href="#click38"><img src="Hadith/Hadith%20(39).jpg" width="240" class="img-responsive"/></a></div>
+				    </div>
+					<div class="row">
+					   <div class="col-sm-4" style="margin-top:5px;"><a href="#click39"><img src="Hadith/Hadith%20(40).jpg" width="240" class="img-responsive"/></a></div>
+					   <div class="col-sm-4" style="margin-top:5px;"><a href="#click40"><img src="Hadith/Hadith%20(41).jpg" width="240" class="img-responsive"/></a></div>
+					   <div class="col-sm-4" style="margin-top:5px;"><a href="#click41"><img src="Hadith/Hadith%20(42).jpg" width="240" class="img-responsive"/></a></div>
+				    </div>
+					<div class="row">
+					   <div class="col-sm-4" style="margin-top:5px;"><a href="#click42"><img src="Hadith/Hadith%20(43).jpg" width="240" class="img-responsive"/></a></div>
+					   <div class="col-sm-4" style="margin-top:5px;"><a href="#click43"><img src="Hadith/Hadith%20(44).jpg" width="240" class="img-responsive"/></a></div>
+					   <div class="col-sm-4" style="margin-top:5px;"><a href="click44"><img src="Hadith/Hadith%20(45).jpg" width="240" class="img-responsive"/></a></div>
+				    </div>
+					<div class="row">
+					   <div class="col-sm-4" style="margin-top:5px;"><a href="#click45"><img src="Hadith/Hadith%20(46).jpg" width="240" class="img-responsive"/></a></div>
+					   <div class="col-sm-4" style="margin-top:5px;"><a href="#click46"><img src="Hadith/Hadith%20(47).jpg" width="240" class="img-responsive"/></a></div>
+					   <div class="col-sm-4" style="margin-top:5px;"><a href="#click47"><img src="Hadith/Hadith%20(48).jpg" width="240" class="img-responsive"/></a></div>
+				    </div>
+					</div>
+					<!--End page4-->
+		<!--page4 lightbox-->			
+					<div class="bm" id="click36" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(37).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(37).jpg" download="Hadith/Hadith%20(37).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+					<div class="bm" id="click37" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(38).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(38).jpg" download="Hadith/Hadith%20(38).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+					<div class="bm" id="click38">
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(39).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(39).jpg" download="Hadith/Hadith%20(39).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+					<div class="bm" id="click39">
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(40).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(40).jpg" download="Hadith/Hadith%20(40).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+					<div class="bm" id="click40" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(41).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(41).jpg" download="Hadith/Hadith%20(41).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+					<div class="bm" id="click41" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(42).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(42).jpg" download="Hadith/Hadith%20(42).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+					<div class="bm" id="click42" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(43).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(43).jpg" download="Hadith/Hadith%20(43).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+					
+					
+					<div class="bm" id="click43" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(44).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(44).jpg" download="Hadith/Hadith%20(44).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+                	<div class="bm" id="click44" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(45).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(45).jpg" download="Hadith/Hadith%20(45).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+                		<div class="bm" id="click45" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(46).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(46).jpg" download="Hadith/Hadith%20(46).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+                		
+	               <div class="bm" id="click46" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(47).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(47).jpg" download="Hadith/Hadith%20(47).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 
+                	 <div class="bm" id="click47" >
+						<div id="outer">
+							<div id="inner">
+								<a href="#" id="cross">X</a>
+								<img src="Hadith/Hadith%20(48).jpg" class="img-responsive img-thumbnail">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-6"><a href="Hadith/Hadith%20(48).jpg" download="Hadith/Hadith%20(48).jpg"><i class="btn btn-danger" style="margin-top:10px;">Download</i> </a></div>
+								</div>
+							</div>
+						</div>
+					</div> 							
+
+		<!--end page4 lightbox-->
+				</div>
+					</div>
+					
+				</div>
+
+</div>
+	  
+
+
+
+    <div class="row">
+        <div class="col-sm-12">
+
+            <div class="navbar navbar-inverse" style="color:white;margin-bottom:-4px;">
+                <div style="border:solid 1px white; width:200px; text-align:center;">
+                    <h3 style="border-bottom:solid 1px white; width:200px; text-align:center;">Menu</h3>
+                    <a href="Hadith.html"><h4>Hadiths</h4></a>
+
+                    <a href="Daily-essential-dua.html"><h4>Daily Essential Dua</h4></a>
+
+
+                    <a href="Dua-After-Namaz.Html"><h4>Dua After Namaz</h4></a>
+
+                    <a href="Dua-e-Qunoot.html"><h4>Dua e Qunoot</h4></a>
+
+                    <a href="Books.html"><h4>Books</h4></a>
+                </div>
+
+				<a href="https://web.facebook.com/Muhammad.Hayat.56"> <i class="fa fa-facebook-square" style="float:right;margin-top:-200px; margin-right:10px;font-size:30px;"></i></a>
+
+			</div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+
+            <div class="navbar" style="color:white; background-color:dimgrey;">
+
+                <p align="center">Copyrights <span class="fa fa-copyright"></span> 2018 AllRight Reserved.</p>
+
+            </div>
+        </div>
+    </div>
+	  </div>
+  </div>
+
+</div>
+
+</div>
+
+
+
+
+</body>
+</html>
